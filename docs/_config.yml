@@ -1,0 +1,38 @@
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - CONTRIBUTING.md
+  - README.md
+  - LICENSE.md
+  - COPYING.md
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - ISSUE_TEMPLATE.md
+  - USAGE.md
+  - privacy-policy.html
+  - _pages
+exclude:
+  - init.sh
+  - preview.sh
+
+theme: jekyll-theme-tactile
+#theme: jekyll-theme-minimal
+#theme: jekyll-theme-minima
+
+# Uncomment following line to use Formspree form ID based URL instead of email based URL
+# Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
+# formspree_form_path: "f/a_form_id"
+formspree_form_path: "f/mjkgllgy"
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://miraitech.store/" # the base hostname & protocol for your site, e.g. http://example.com
+domain: "miraitech.store"
+
+# Site settings
+title: MirAI Tech
+
+contact_us: <a href="/#contact">Contact Form</a>
+country_legal: Japan
