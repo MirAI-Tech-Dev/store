@@ -2,5 +2,5 @@
 layout: default
 ---
 
-# Coming Soon
-stay tuned!
+# For Sale
+
